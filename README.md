@@ -41,37 +41,37 @@ You can change how the text gets displayed on the kanban by using a template. Fo
 
 And with the kanban:
 
-```kanban
-template:
-  template
-query:
-  task where page = @page.name
-```
+  ```kanban
+  template:
+    template
+  query:
+    task where page = @page.name
+  ```
 
 ### columns
 You can change the default columns like this (The columns will be displayed in that order and with the different text):
-```kanban
-query:
-  task where page = @page.name
-columns:
-  - id: TODO
-    title: ToDo
-  - id: ON GOING
-    title: On Going
-  - id: DONE
-    title: Done
-```
+  ```kanban
+  query:
+    task where page = @page.name
+  columns:
+    - id: TODO
+      title: ToDo
+    - id: ON GOING
+      title: On Going
+    - id: DONE
+      title: Done
+  ```
 ### options:
 
 You can change any of the options as shown in the [jkanban documentation](https://github.com/riktar/jkanban?tab=readme-ov-file#usage) by using the option parameter:
 
-```kanban
-query:
-  task where page = @page.name
-options:
-  dragItems: false
-  dragTables: false
-```
+  ```kanban
+  query:
+    task where page = @page.name
+  options:
+    dragItems: false
+    dragTables: false
+  ```
 
 **Note:** [jkanban](https://github.com/riktar/jkanban) itself is not bundled with this plug, it pulls the JavaScript, CSS and fonts from the JSDelivr CDN.
 
