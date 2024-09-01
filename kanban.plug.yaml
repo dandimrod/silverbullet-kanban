@@ -1,0 +1,5 @@
+name: kanban
+functions:
+  kanbanWidget:
+    path: ./kanban.ts:widget
+    codeWidget: kanban

@@ -1,0 +1,26 @@
+{
+  "imports": {
+    "@silverbulletmd/silverbullet/": "../silverbullet/",
+    "@silverbulletmd/silverbullet/syscall": "../silverbullet/plug-api/syscall.ts",
+    "@silverbulletmd/silverbullet/syscalls": "../silverbullet/plug-api/syscalls.ts",
+    "@silverbulletmd/silverbullet/types": "../silverbullet/plug-api/types.ts",
+    "@silverbulletmd/silverbullet/lib/json": "../silverbullet/plug-api/lib/json.ts",
+    "@silverbulletmd/silverbullet/lib/tree": "../silverbullet/plug-api/lib/tree.ts",
+    "@silverbulletmd/silverbullet/lib/attribute": "../silverbullet/plug-api/lib/attribute.ts",
+    "@silverbulletmd/silverbullet/lib/parse_query": "../silverbullet/plug-api/lib/parse_query.ts",
+    "@silverbulletmd/silverbullet/lib/page_ref": "../silverbullet/plug-api/lib/page_ref.ts",
+    "@silverbulletmd/silverbullet/lib/resolve": "../silverbullet/plug-api/lib/resolve.ts",
+    "@silverbulletmd/silverbullet/lib/query_expression": "../silverbullet/plug-api/lib/query_expression.ts",
+    "@silverbulletmd/silverbullet/lib/yaml_page": "../silverbullet/plug-api/lib/yaml_page.ts",
+    "@silverbulletmd/silverbullet/lib/query": "../silverbullet/plug-api/lib/query.ts",
+    "@silverbulletmd/silverbullet/lib/frontmatter": "../silverbullet/plug-api/lib/frontmatter.ts",
+    "@silverbulletmd/silverbullet/lib/markdown": "../silverbullet/plug-api/lib/markdown.ts",
+    "@silverbulletmd/silverbullet/lib/tags": "../silverbullet/plug-api/lib/tags.ts",
+    "@silverbulletmd/silverbullet/type/config": "../silverbullet/type/config.ts",
+    "@silverbulletmd/silverbullet/type/rpc": "../silverbullet/type/rpc.ts",
+    "@silverbulletmd/silverbullet/type/client": "../silverbullet/type/client.ts",
+    "$lib/":"../silverbullet/lib/",
+    "handlebars": "https://esm.sh/handlebars",
+    "yaml": "https://deno.land/std@0.184.0/yaml/mod.ts"
+  }
+}
